@@ -1,4 +1,4 @@
-class cron { noop }
+class cron {  }
 
 # http://linuxman.wikispaces.com/Creating+a+cron+job+with+puppet
 # manage cron jobs in separate files - call with enable => "false" to delete the job
