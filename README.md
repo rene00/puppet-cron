@@ -1,4 +1,4 @@
-= cron puppet module =
+# cron puppet module
 This git repository was initially seeded from the following wiki page.
 
 http://linuxman.wikispaces.com/Creating+a+cron+job+with+puppet
@@ -6,7 +6,7 @@ http://linuxman.wikispaces.com/Creating+a+cron+job+with+puppet
 I'm not the author but I am a user of this function.
 
 
-== cron_job ==
+## cron_job ##
 
 restart puppet agent weekly
 
