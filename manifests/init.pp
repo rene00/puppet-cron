@@ -1,6 +1,10 @@
 class cron {
 
     service { "crond":
+        name => $operatingsystem ? {
+            Ubuntu => 'cron',
+            default => 'crond',
+        },
         subscribe => File["/etc/crontab"],
         ensure => running,
     }
